@@ -1,0 +1,21 @@
+.ol-mouse-position {
+	right: 42px;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	text-align: center;
+	padding: 2.5px;
+	background: rgba(0, 60, 136, 0.5);
+	background-clip: padding-box;
+	border: 3px solid rgba(255, 255, 255, 0.4);
+	border-radius: 4px;
+}
+.ol-overviewmap {
+	left: 8px;
+	bottom: 34px;
+}
+.popover {
+	width: 200px;
+	height: auto;
+}
+
+.popupContainer {width: 200px; height: 200px;}
