@@ -3,6 +3,8 @@
 <title>GIS PROJECT</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 
+    <!--CSS-->
+
     <link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
       
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -13,7 +15,7 @@
 <div id="container">
 
 	<div id="header">
-       <h1>Land Cover 30</h1>
+       <h1>Milan Land Cover</h1>
     </div>
 
 	<div id="nav">
@@ -26,10 +28,29 @@
 
      <div id="mes-full">
      	<h2>The project</h2>
-    	<p>this project is about i dont know, im writing only o see if the text is correctely formatted. bau bau. i hope that you like uor website cause its so funny. im in trafficanti and its so boring studying on sunday</p>
+    	<p>The objective of this laboratory is to provide a classification of the <b> soils's surface </b> in different locations of <b>Milan</b>. For this purpose, the territory of Milan has been divided into <b> 4 portions </b>, each of which has been assigned to a different group composed of 3 people, with the exception of a single group of 2 people. Our group dealt with the classification of points belonging to the North-East portion of Milan. A total of 60 points were collected for each group (with the exception of the group with two people who collected a total of 40 points).<br>
+        <center><img src="img/Project_map.jpg"/></center> <br></p>
+        <p>Locally, the classification of the land was made possible thanks to the help of an application developed by a PhD student from Politecnico di Milano. The application in question is <b> Land Cover Collettor</b>, available for mobile application in Google Play and App Store, and also on the Web at this <a href="https://landcover.como.polimi.it/collector/">link</a>. It is free and open source software. <br>
+        The nomenclature of the areas has been performed according to Globe Land 30 (<a href="#about">see this paragraph for additional information</a>). In addition to the classification of the ground cover, we also took pictures, one in the direction of each cardinal points.<br><br>
+
+        Following the phase of collection of the points, an analysis and elaboration of them was carried out in order to allow their representation through the support of WebGis. In particular, through the QGIS software, all the collected points were analyzed and processed. Being the project developed in the Milan area, all the points outside of this have been removed. The data can be downloaded in JSON format at this <a href="https://landcover.como.polimi.it/collector/">link</a>, in order to display them in QGIS, they must have been converted into a shapefile format. <br><br>
+
+        Subsequently, with the use of Geoserver (an open source server for sharing geospatial data), all the data necessary for the creation of WebGis have been published, particularly: the collected points, the boundary of the portion of Milan analyzed by our group and the raster of Globe Land 30. The latter will serve for a comparison between our collected data and the official ones. <br><br>
+
+        The OpenLayers library was used to create the webGis. OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript. </p>
+    </div>
+    
+     <div id="mes-full">
+        <a name="about"></a><h2>About Land Cover Maps</h2>
+        <p>Land Cover (LC) maps are fundamental for a wide range of users and applications such as planning, nature and biodiversity protection, natural resources management, etc...
+        They represent a key input to monitor the indicators of the sustainable developments and promote evidence-based policy-making on issues like soil consumption and deforestation.<br>
+        There are different type of land cover maps, but we will focus on a particular one: Globe Land 30. <br><br>
+
+        In 2010, China launched a GLC mapping project, and finally produced the 30 m GLC data product (<a href="http://www.globallandcover.com/">GlobeLand30</a>) with 10 classes for years 2000 and 2010 within a four year period. </p>
     </div>
 
-    <div id="sidebar">
+
+    <div id="list">
     	<h2>Problems</h2>
 		<ul>
         	<li>ciao</li>
