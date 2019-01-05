@@ -209,6 +209,7 @@ map.addControl(layerSwitcher);
 
 //zoom to home extent button
 var defaultExtent = map.getView().calculateExtent(map.getSize());
+var defaultRes = map.getView().getResolution();
 var defaultzoom = map.getView().getZoom();
 zoonToExtentControl = new ol.control.ZoomToExtent({
     extent: defaultExtent
@@ -239,6 +240,7 @@ map.on('click', function(event) {
     var title;
     var content;
     var isContent = 0;
+    var viewResolution = (map.getView().getResolution());
     var feature = map.forEachFeatureAtPixel(event.pixel, function(feature, layer) {
       return feature;
   });
@@ -254,7 +256,7 @@ map.on('click', function(event) {
        }
      //change position so feature is in center, to avoid popup outside of frame
      var coord1 = map.getCoordinateFromPixel(pixel);
-     ol.coordinate.add(coord1, [0, -5000]); //chane a bit the coord so popup will have more space (long comments)
+     ol.coordinate.add(coord1, [0, -9000*viewResolution/defaultRes]); //chane a bit the coord so popup will have more space (long comments)
      map.getView().animate({ 
       center: coord1,
       duration: 500
