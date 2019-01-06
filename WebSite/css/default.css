@@ -25,6 +25,7 @@ a {
 	color: #21aabd; 
 	text-decoration: none
 }
+
 a:hover {
 	color: #333; 
 	text-decoration:underline
@@ -93,10 +94,36 @@ img {
 	line-height: 130%
 } 
 
+#mes-full li {
+	font-weight:normal;
+	font-size: 22px;
+	text-align:justify; 
+	line-height: 130%
+} 
+
+
 #mes-full img {
-	
-	height: 100%;
-	width: 100%
+	width: 50%;
+	height: auto;
+	border: 2px solid #21aabd
+}
+
+#grid {
+  padding: 0;
+  margin: 0
+}
+
+#grid li {
+  display: inline-block;
+  width:  40%;
+  height: auto;
+  margin: 10px
+}
+
+#grid img {
+	height: auto;
+	width: 100%;
+	border: 2px solid #21aabd
 }
 
 /*** List***/
@@ -104,11 +131,11 @@ img {
 #list {
 	width:100%;
 	padding:2%;
-	float:left
+	float:left;
+	background: #e2e2e0
 }
 
 #list li {
-	text-transform: lowercase;
 	font-weight: normal;
 	font-size: 22px; 
 	line-height: 130%
@@ -121,7 +148,7 @@ img {
 
 #layerswitcher.olControlLayerSwitcher {
 	left: 8px;
-	bottom: 200px;
+	bottom: 200px
 }
 
 /* Style buttons */
@@ -139,7 +166,7 @@ img {
 /* Darker background on mouse-over */
 
 #popupButton:hover {
-	background-color: RoyalBlue;
+	background-color: RoyalBlue
 }
 
 
@@ -148,7 +175,7 @@ img {
 
 .image img {
 	width:100%; 
-	height: 60%
+	height: 70%
 }
 
 /*** Description of ourselves ***/
@@ -195,7 +222,7 @@ img {
 
 .popover {
 	width: 900px;
-	height: auto
+	height: auto	
 }
 
 
