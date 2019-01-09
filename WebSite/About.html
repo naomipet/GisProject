@@ -151,11 +151,20 @@
         <p>
             As reported in the previous paragraphs, the objective of this project is to compare the soil classification of Milan, sampled by our group according to GL30 standards with the data provided by the latter. To do this, this website was built.
             <br>
+            The procedures behind the construction of the webgis will be shown below.
+            <br>
+            Through the WMS (Web Map Service, a standard and open source protocol for map imagery) the Globe Land 30 raster and the boundary of our survey area were represented.
+            With the WFS service (Web Map Service, an open source interface), all the points sampled in the Milan area were represented, loaded in JSON format.
+            The cartography is based on the CartoDB Positron Basemap and it is using the vector tile schema of OpenMapTiles.
+            It is also possible to use other basemaps such as: OpenStreetMap and Bing arial map.
+            <br>
+            The data that is rendered on the client side is arranged in cluster format, to allow the icons to group when zooming out. When a point is grouped with others, the colour of the joined icon will follow the most frequent class in the group. Otherwise, each point takes the icon matching its classification. Style cache was used to improve performance, specifically for avoiding repetition. 
+            <br>
+            Furthermore, the globe land 30 raster and the sampled points are both queryable. By clicking on a portion of the raster, a pop-up window will display the land cover classification of LandCover 30 project, while clicking on one of the points, a pop-up will report all the information associated with it, such as: soil classification, certainty classification's level, possible comments left and 4 photos taken in the directions of the 4 cardinal points (a button allow you to switch between the images according to their direction). It is possible to close the pop-up window by simply pressing the esc key. The zoom level is adjusted to fit the full popup size. 
             <a href="Webgis.html">On this page</a>, you will be able to see the result of our elaborations.
+            <br>
             As you can see, the WebGis reports all the points sampled, the boundary of our work area and the raster of GL30.
-            It presents the classic zoom in and out buttons, a button (E) that returns to a specific extent, the scale bar, a button to disable or change the different layers and the base map and one to switch to full screen.
-            Moreover, the various layers shown are interrogable, you will see a change of the mouse tip every time the layer is queried.
-            Specifically, the construction of the WebGis has followed the these steps:
+            It presents the classic zoom in and out buttons, a button (E) that returns to a specific extent, the scale bar, a button to disable or change the different layers and the base map and one to switch to full screen and another one to see an overviw of the map.
         </p>
     </div>
 
