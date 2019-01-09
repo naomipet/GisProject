@@ -41,7 +41,7 @@ img {
 
 #container {
 	width: 95%;
-	min-width: 800px;
+	min-width: 80%;
 	margin: 0 auto; 
 	background: #21aabd
 }
@@ -55,14 +55,6 @@ img {
 
 #header h1 {
 	color:#fff
-}
-
-#header img {
-	position: absolute;
-	top: 8px; 
-	left:1150px;
-	width: 9.5%;
-	height: 16%
 }
 
 /*** Navigator buttoms ***/	

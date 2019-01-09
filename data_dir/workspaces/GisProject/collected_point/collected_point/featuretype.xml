@@ -1,0 +1,50 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-46edaf50:167eef81cca:-7ff7</id>
+  <name>collected_point</name>
+  <nativeName>collected_point</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-46edaf50:167eef81cca:-7ffe</id>
+  </namespace>
+  <title>collected_point</title>
+  <keywords>
+    <string>features</string>
+    <string>collected_point</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>9.052391052246096</minx>
+    <maxx>9.26722</maxx>
+    <miny>45.393937</miny>
+    <maxy>45.53047425679672</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>9.052391052246096</minx>
+    <maxx>9.26722</maxx>
+    <miny>45.393937</miny>
+    <maxy>45.53047425679672</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-46edaf50:167eef81cca:-7ff9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

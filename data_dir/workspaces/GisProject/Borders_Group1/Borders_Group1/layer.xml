@@ -1,0 +1,20 @@
+<layer>
+  <name>Borders_Group1</name>
+  <id>LayerInfoImpl-46edaf50:167eef81cca:-7ff2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-46edaf50:167eef81cca:-7fd0</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-46edaf50:167eef81cca:-7fd0</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-46edaf50:167eef81cca:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

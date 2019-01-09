@@ -1,0 +1,8 @@
+<roleService>
+  <id>55c739c0:167992fcc88:-7fee</id>
+  <name>admin</name>
+  <className>org.geoserver.security.xml.XMLRoleService</className>
+  <fileName>admin</fileName>
+  <checkInterval>0</checkInterval>
+  <validating>false</validating>
+</roleService>

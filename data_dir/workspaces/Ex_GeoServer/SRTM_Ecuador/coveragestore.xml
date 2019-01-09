@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-55c739c0:167992fcc88:-7fb4</id>
+  <name>SRTM_Ecuador</name>
+  <type>ArcGrid</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-55c739c0:167992fcc88:-7fec</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///media/sf_Scuola/GIS/Practice6/data/GeoServer_data/SRTM/SRTM_Ecuador.asc</url>
+</coverageStore>

@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-46edaf50:167eef81cca:-7ffc</id>
+  <name>GlobeLand30</name>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-46edaf50:167eef81cca:-7fff</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:///var/www/html/GisProject/GisProject/GlobeLand30_MI.tif</url>
+</coverageStore>

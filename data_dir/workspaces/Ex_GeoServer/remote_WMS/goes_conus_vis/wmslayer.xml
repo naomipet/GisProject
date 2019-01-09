@@ -1,0 +1,43 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl-55c739c0:167992fcc88:-7fc0</id>
+  <name>goes_conus_vis</name>
+  <nativeName>goes_conus_vis</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-55c739c0:167992fcc88:-7feb</id>
+  </namespace>
+  <title>IEM GOES VIS WMS Service</title>
+  <description>IEM generated CONUS composite of GOES Visible Satellite.</description>
+  <abstract>IEM generated CONUS composite of GOES Visible Satellite.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-126.0</minx>
+    <maxx>-66.0</maxx>
+    <miny>24.0</miny>
+    <maxy>50.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-126.0</minx>
+    <maxx>-66.0</maxx>
+    <miny>24.0</miny>
+    <maxy>50.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl-55c739c0:167992fcc88:-7fc1</id>
+  </store>
+</wmsLayer>

@@ -1,0 +1,119 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--570ae188:124761b8d78:-7fbb</id>
+  <name>tasmania_state_boundaries</name>
+  <nativeName>tasmania_state_boundaries</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--570ae188:124761b8d78:-7ffe</id>
+  </namespace>
+  <title>Tasmania state boundaries</title>
+  <abstract>Tasmania state boundaries</abstract>
+  <keywords>
+    <string>boundaries</string>
+    <string>tasmania_state_boundaries</string>
+    <string>Tasmania</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>other</type>
+      <metadataType>other</metadataType>
+      <content>http://geonode/catalogue/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=66789c24-1a6a-47f1-b1f5-0b78593b07f7</content>
+    </metadataLink>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>FGDC</metadataType>
+      <content>http://geonode/catalogue/csw?outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2Fcsdgm&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=66789c24-1a6a-47f1-b1f5-0b78593b07f7</content>
+    </metadataLink>
+    <metadataLink>
+      <type>other</type>
+      <metadataType>other</metadataType>
+      <content>http://geonode/catalogue/csw?outputschema=urn%3Aoasis%3Anames%3Atc%3Aebxml-regrep%3Axsd%3Arim%3A3.0&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=66789c24-1a6a-47f1-b1f5-0b78593b07f7</content>
+    </metadataLink>
+    <metadataLink>
+      <type>other</type>
+      <metadataType>other</metadataType>
+      <content>http://geonode/catalogue/csw?outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2F2.0.2&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=66789c24-1a6a-47f1-b1f5-0b78593b07f7</content>
+    </metadataLink>
+    <metadataLink>
+      <type>other</type>
+      <metadataType>other</metadataType>
+      <content>http://geonode/catalogue/csw?outputschema=http%3A%2F%2Fgcmd.gsfc.nasa.gov%2FAboutus%2Fxml%2Fdif%2F&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=66789c24-1a6a-47f1-b1f5-0b78593b07f7</content>
+    </metadataLink>
+    <metadataLink>
+      <type>other</type>
+      <metadataType>other</metadataType>
+      <content>http://geonode/catalogue/csw?outputschema=http%3A%2F%2Fwww.w3.org%2F2005%2FAtom&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=66789c24-1a6a-47f1-b1f5-0b78593b07f7</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
+  DATUM[&quot;WGS_1984&quot;, 
+    SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>143.83482400000003</minx>
+    <maxx>148.47914100000003</maxx>
+    <miny>-43.648056</miny>
+    <maxy>-39.573891</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>143.83482400000003</minx>
+    <maxx>148.47914100000003</maxx>
+    <miny>-43.648056</miny>
+    <maxy>-39.573891</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <metadata>
+    <entry key="kml.regionateFeatureLimit">10</entry>
+    <entry key="cacheAgeMax">3600</entry>
+    <entry key="cachingEnabled">true</entry>
+    <entry key="indexingEnabled">false</entry>
+    <entry key="dirName">tasmania_state_boundaries</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--570ae188:124761b8d78:-7fdc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <attributes>
+    <attribute>
+      <name>the_geom</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>false</nillable>
+    </attribute>
+    <attribute>
+      <name>STATE</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>false</nillable>
+    </attribute>
+    <attribute>
+      <name>COUNTRY</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>false</nillable>
+    </attribute>
+    <attribute>
+      <name>CURR_TYPE</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>false</nillable>
+    </attribute>
+    <attribute>
+      <name>CURR_CODE</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>false</nillable>
+    </attribute>
+  </attributes>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

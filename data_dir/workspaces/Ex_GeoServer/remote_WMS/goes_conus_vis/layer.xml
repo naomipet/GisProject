@@ -1,0 +1,15 @@
+<layer>
+  <name>goes_conus_vis</name>
+  <id>LayerInfoImpl-55c739c0:167992fcc88:-7fbf</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl-55c739c0:167992fcc88:-7fc0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

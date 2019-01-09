@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-55c739c0:167992fcc88:-7fd0</id>
+  <name>ECU_group</name>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-55c739c0:167992fcc88:-7fec</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Europe/Rome</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">http://localhost:8082/geoserver/Ex_GeoServer</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:///media/sf_Scuola/GIS/Practice6/data/GeoServer_data/ECU_group</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

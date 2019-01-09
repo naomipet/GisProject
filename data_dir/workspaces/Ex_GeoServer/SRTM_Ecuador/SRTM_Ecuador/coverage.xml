@@ -1,0 +1,98 @@
+<coverage>
+  <id>CoverageInfoImpl-55c739c0:167992fcc88:-7fb3</id>
+  <name>SRTM_Ecuador</name>
+  <nativeName>SRTM_Ecuador</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-55c739c0:167992fcc88:-7feb</id>
+  </namespace>
+  <title>SRTM_Ecuador</title>
+  <description>Generated from ArcGrid</description>
+  <abstract>A portion of the Ecuador SRTM DTM</abstract>
+  <keywords>
+    <string>SRTM_Ecuador</string>
+    <string>WCS</string>
+    <string>ArcGrid</string>
+  </keywords>
+  <nativeCRS class="org.geotools.referencing.crs.DefaultEngineeringCRS">LOCAL_CS[&quot;Wildcard 2D cartesian plane in metric unit&quot;, 
+  LOCAL_DATUM[&quot;Unknown&quot;, 0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;404000&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-80.000416424533</minx>
+    <maxx>-79.97624975786633</maxx>
+    <miny>-5.0004160855315</miny>
+    <maxy>-4.969582752198167</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-80.000416424533</minx>
+    <maxx>-79.97624975786633</maxx>
+    <miny>-5.0004160855315</miny>
+    <maxy>-4.969582752198167</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">SRTM_Ecuador_SRTM_Ecuador</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-55c739c0:167992fcc88:-7fb4</id>
+  </store>
+  <nativeFormat>ArcGrid</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>29 37</high>
+    </range>
+    <transform>
+      <scaleX>8.333333333335554E-4</scaleX>
+      <scaleY>-8.333333333333196E-4</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>-79.99999975786633</translateX>
+      <translateY>-4.969999418864833</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>SRTM_Ecuador</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <nullValues>
+        <double>-9999.0</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_64BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:4326</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:4326</string>
+  </responseSRS>
+  <nativeCoverageName>SRTM_Ecuador</nativeCoverageName>
+</coverage>
