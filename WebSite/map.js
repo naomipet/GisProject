@@ -1,10 +1,12 @@
 /**************************layers**************************/
+
 var osm = new ol.layer.Tile({
 	title: 'OpenStreetMap',
 	type: 'base',
 	visible: false,
 	source: new ol.source.OSM()
 });
+
 var bingAerial = new ol.layer.Tile({
 	title: 'Bing Maps Aerial',
 	type: 'base',
@@ -14,6 +16,7 @@ var bingAerial = new ol.layer.Tile({
 		imagerySet: 'Aerial'
 	})
 });
+
 var PositronGL = new ol.layer.Tile({
 	title: 'Positron GL',
 	type: 'base',
@@ -23,7 +26,9 @@ var PositronGL = new ol.layer.Tile({
         crossOrigin: 'anonymous'
     })
 });
+
 /***wms layer***/
+
 var GlobeLand30 = new ol.layer.Image({
 	title: 'GlobeLand30',
 	opacity: 0.4,
@@ -54,11 +59,13 @@ var vectorSource = new ol.source.Vector({
 });
 
 /**************************collected points load**************************/
+
 var geojsonFormat = new ol.format.GeoJSON();
 function loadFeatures(response) {
 	vectorSource.addFeatures(geojsonFormat.readFeatures(response));
 }
-//use cluster to grout at zoom out
+
+//use cluster to group at zoom out
 var clusterSource = new ol.source.Cluster({
         distance: 15, //the distance btw clusters
         source: vectorSource
@@ -75,7 +82,7 @@ var CollectedPoints = new ol.layer.Vector({
             style = pointStyleFunction(originalFeatures[0]);
             return style;
         }
-        //else, cluster. check which class accurs most frequently in cluster, to choose which
+        //else, cluster. check which class occurs most frequently in cluster, to choose which
         //color to use
         var typeOcurrance = Array(0,0,0,0,0,0,0,0,0,0);
         for (var i = 0, ii = size; i < ii; ++i){
@@ -176,6 +183,7 @@ var classIntToColor = {
 };
 
 /**************************map**************************/
+
 var map = new ol.Map({
     target: document.getElementById('map'),
     layers: [
@@ -217,6 +225,7 @@ zoonToExtentControl = new ol.control.ZoomToExtent({
 map.addControl(zoonToExtentControl);
 
 /**************************popups management**************************/
+
 var elementPopup1 = document.getElementById('popup1');
 var elementPopup2 = document.getElementById('popup2');
 
@@ -418,4 +427,5 @@ var keydown = function(evt){
         closePopups();
     }
 };
+
 document.addEventListener('keydown', keydown, false);
